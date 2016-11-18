@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require 'rubygems'
+require 'bundler'
+Bundler.require(:default)
+
+require_relative 'lib/runner'
+
+# runner = Runner.new('./data/sample.json')
+# runner = Runner.new('./data/sample.json', 'test')
+runner = Runner.new('./data/sample.json', 'test')
+runner.from_json

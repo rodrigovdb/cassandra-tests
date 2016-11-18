@@ -1,0 +1,40 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ast (2.3.0)
+    cassandra-driver (3.0.3)
+      ione (~> 1.2)
+    coderay (1.1.1)
+    ione (1.2.4)
+    method_source (0.8.2)
+    parser (2.3.1.4)
+      ast (~> 2.2)
+    powerpack (0.1.1)
+    pry (0.10.4)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    rainbow (2.1.0)
+    rubocop (0.45.0)
+      parser (>= 2.3.1.1, < 3.0)
+      powerpack (~> 0.1)
+      rainbow (>= 1.99.1, < 3.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (~> 1.0, >= 1.0.1)
+    ruby-progressbar (1.8.1)
+    slop (3.6.0)
+    unicode-display_width (1.1.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  cassandra-driver
+  pry
+  rubocop
+
+RUBY VERSION
+   ruby 2.3.0p0
+
+BUNDLED WITH
+   1.13.6
